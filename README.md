@@ -1,2 +1,2 @@
-# ProjectsPython
-Repository dedicated to projects and scripts developed in Python, from basic to advanced.
+# ProjectosPython
+Repositorio dedicado a proyectos y scripts desarrollados en Python, desde básicos hasta avanzados.
