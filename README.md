@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculadora de Estadísticas
 
 Este proyecto implementa una calculadora de estadísticas básicas que permite calcular el promedio, mediana, mínimo y máximo de una lista de números proporcionados por el usuario.
@@ -47,3 +48,7 @@ Máximo: 8
 
    ```bash
    python calculadora_estadisticas.py
+=======
+# ProyectosPython
+Repositorio dedicado a proyectos y scripts desarrollados en Python, desde básicos hasta avanzados.
+>>>>>>> 35c44e865a638e069e243b2c2357ca0f62c30d3c
