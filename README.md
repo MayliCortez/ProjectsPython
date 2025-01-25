@@ -1,53 +1,59 @@
-# Calculadora de Estadísticas
+# ProyectosPython
 
-Este proyecto implementa una calculadora de estadísticas básicas que permite calcular el promedio, mediana, mínimo y máximo de una lista de números proporcionados por el usuario.
+Este repositorio contiene varios proyectos en Python que resuelven distintos problemas. Cada proyecto tiene su propio propósito y estructura. A continuación, se describe brevemente cada uno de ellos.
 
-## Funcionalidades
+## Proyectos
 
-- **Promedio**: Calcula el promedio de los números ingresados.
-- **Mediana**: Calcula la mediana de los números ingresados (requiere que los números estén ordenados).
-- **Mínimo y Máximo**: Encuentra el valor más bajo y más alto de la lista de números.
+### 1. **CalculadoraEstadisticas**
+Este proyecto incluye una calculadora para realizar cálculos estadísticos básicos sobre un conjunto de datos. El script `calculadora_estadisticas.py` permite a los usuarios obtener estadísticas como la media, mediana, desviación estándar, entre otros.
+
+- **Archivos:**
+  - `calculadora_estadisticas.py`: Script principal con la implementación de la calculadora.
+  - `README.md`: Documentación específica del proyecto.
+
+### 2. **CalculadoraPromediosCSV**
+Este proyecto permite calcular promedios de calificaciones a partir de un archivo CSV. El script `calculadora_promedios_csv.py` lee las calificaciones desde un archivo CSV llamado `calificaciones.csv` y calcula el promedio de cada estudiante.
+
+- **Archivos:**
+  - `calculadora_promedios_csv.py`: Script para calcular los promedios de los estudiantes.
+  - `calificaciones.csv`: Archivo CSV que contiene las calificaciones de los estudiantes.
+  - `README.md`: Documentación específica del proyecto.
 
 ## Requisitos
 
-- Python 3.x
+Para ejecutar estos proyectos, necesitas tener Python instalado en tu sistema. Además, algunos proyectos pueden requerir librerías adicionales que se pueden instalar utilizando `pip`.
 
-## Instrucciones de uso
+## Instalación
 
-1. Ejecuta el archivo `calculadora_estadisticas.py` en tu terminal o consola de comandos.
-2. Cuando el programa te lo pida, ingresa una lista de números separados por comas (por ejemplo: `2,4,5,2,4,7,8`).
-3. El programa calculará las siguientes estadísticas:
-   - **Números ordenados**: Muestra la lista de números en orden ascendente.
-   - **Promedio**: Muestra el promedio de los números.
-   - **Mediana**: Muestra la mediana de los números.
-   - **Mínimo y Máximo**: Muestra el valor mínimo y máximo de los números.
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/MayliCortez/ProyectosPython.git
+   ```
 
-## Ejemplo de uso
+2. Navega a la carpeta del proyecto que deseas ejecutar:
+   ```bash
+   cd ProyectosPython/CalculadoraEstadisticas
+   ```
+   o
+   ```bash
+   cd ProyectosPython/CalculadoraPromediosCSV
+   ```
 
-### Entrada:
-Ingresa números separados por comas: 2,4,5,2,4,7,8
-
-### Salida:
-Números ordenados: [2, 2, 4, 4, 5, 7, 8] 
-Promedio: 4.57 
-Mediana: 4 
-Mínimo: 2 
-Máximo: 8
-
-### Explicación:
-- **Entrada**: El usuario ingresa los números separados por comas.
-- **Salida**: El programa muestra los números ordenados, el promedio (redondeado a dos decimales en este caso), la mediana, el valor mínimo y el valor máximo.
-
-## Cómo ejecutar el código
-
-1. Asegúrate de tener Python 3.x instalado en tu computadora.
-2. Abre una terminal o línea de comandos.
-3. Navega hasta el directorio donde se encuentra el archivo `calculadora_estadisticas.py`.
-4. Ejecuta el siguiente comando:
-
+3. Ejecuta el script Python correspondiente:
    ```bash
    python calculadora_estadisticas.py
-=======
-# ProyectosPython
-Repositorio dedicado a proyectos y scripts desarrollados en Python, desde básicos hasta avanzados.
+   ```
+   o
+   ```bash
+   python calculadora_promedios_csv.py
+   ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, por favor abre un *pull request* con tus sugerencias o mejoras. Asegúrate de seguir las buenas prácticas de codificación y de realizar pruebas antes de enviar tus cambios.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
+```
 
